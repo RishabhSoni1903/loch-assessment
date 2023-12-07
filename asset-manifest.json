@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/loch-assessment/static/css/main.fc3315e3.css",
-    "main.js": "/loch-assessment/static/js/main.579bef4e.js",
+    "main.js": "/loch-assessment/static/js/main.a35cd717.js",
     "static/media/Cohorts 1.jpg": "/loch-assessment/static/media/Cohorts 1.9f5644dacc7a385147c6.jpg",
     "static/media/Eye.svg": "/loch-assessment/static/media/Eye.fed7ebf1ce1094d3772cf4101e20bf74.svg",
     "static/media/Bell2.svg": "/loch-assessment/static/media/Bell2.3987fb3ce94bf38d46c651ef0389ecf0.svg",
@@ -11,10 +11,10 @@
     "static/media/bar-chart-2.svg": "/loch-assessment/static/media/bar-chart-2.20ad6cc7ef6ec2eddedf595998e4c4d2.svg",
     "static/media/clock.svg": "/loch-assessment/static/media/clock.e9b622fa589d07fbbc1260fa871c042e.svg",
     "main.fc3315e3.css.map": "/loch-assessment/static/css/main.fc3315e3.css.map",
-    "main.579bef4e.js.map": "/loch-assessment/static/js/main.579bef4e.js.map"
+    "main.a35cd717.js.map": "/loch-assessment/static/js/main.a35cd717.js.map"
   },
   "entrypoints": [
     "static/css/main.fc3315e3.css",
-    "static/js/main.579bef4e.js"
+    "static/js/main.a35cd717.js"
   ]
 }
