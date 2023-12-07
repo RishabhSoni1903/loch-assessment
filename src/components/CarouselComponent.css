@@ -1,0 +1,164 @@
+.card{
+    width: 175.7px;
+    height: 157.5px;
+    border-radius: 8.4px;
+    padding: 14px;
+    margin: 0px 14px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.card1{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.20) 27.5%, rgba(22, 93, 255, 0.16) 157.71%), #FFF;
+    box-shadow: 0px 0.7px 0.7px 0px rgba(0, 0, 0, 0.04), 0px 2.8px 7px 0px rgba(0, 0, 0, 0.04);
+}
+
+.card2{
+    background-color: #FFF;
+}
+
+#save{
+    border: none;
+    background: #FFF;
+    color: #19191A;
+text-align: right;
+font-family: Inter;
+font-size: 9.1px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%;
+}
+
+.carousel{
+    margin: 48px 0px 84.5px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    animation: 15s slide infinite linear;
+    position: relative;
+}
+
+#subHead{
+    margin-top: 14px;
+    color:  #19191A;
+    width: 129px;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+}
+
+#email_input2{
+    border-radius: 8px;
+    border: 1px solid var(--grey-100, #E5E5E6);
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04), 0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+    width: 139px;
+    margin: 14px 0 0 0;
+    padding: 12px 11.2px 12px 11.2px;
+    font-family: Inter;
+    color: #19191A;
+    font-size: 9.1px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+#email_input2::placeholder{
+    color: #19191A;
+font-family: Inter;
+font-size: 9.1px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+}
+
+#subHead2{
+    color:#19191A;
+font-family: Inter;
+font-size: 11.2px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+margin-top: 55.3px;
+}
+
+#subHead3{
+    color: var(--grey-900, #19191A);
+    margin-top: 39.2px;
+font-family: Inter;
+font-size: 11.2px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 13.44px */
+}
+
+#subHead4{
+    margin-top: 8.4px;
+    color:#19191A;
+    font-family: Inter;
+    font-size: 11.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+select{
+    margin-top: 14.6px;
+    padding: 4.2px;
+    border-radius: 2.8px;
+    background:  rgba(229, 229, 230, 0.50);
+    border: none;
+    color:  #313233;
+font-family: Inter;
+font-size: 9.1px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 10.92px */
+}
+
+select:focus {
+    border: none;
+    outline: none;
+  }
+
+  select:option{
+    color: #313233;
+font-family: Inter;
+font-size: 9.1px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 10.92px */
+  }
+
+.dropdown{
+    margin-top: -5.6px;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel{
+        margin: 24px 10px 14px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200%;
+    }
+}

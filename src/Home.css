@@ -1,0 +1,20 @@
+body{
+    margin-left: auto;
+    background-color: black;
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 1024px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        color: white;
+        width: 100%;
+        display: block;
+    }
+  }
